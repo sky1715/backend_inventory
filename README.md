@@ -1,4 +1,4 @@
-<img width="1345" height="884" alt="Screenshot 2025-07-25 210325" src="https://github.com/user-attachments/assets/1f682e06-747a-4a3f-86f4-7141fc8f9ecd" />
+
 # backend_inventory# backend_inventory_management
 This is a backend REST API for a simple Inventory Management Tool, built using Node.js, Express, and MongoDB. It supports user authentication, product management, and inventory tracking.
 
