@@ -78,17 +78,21 @@ npm start
 
 Sample API Endpoints
 🔐 Login
-bash
+
+```bash
 
 POST /login
 {
   "username": "string",
   "password": "string"
 }
+```
 
-➕ Add Product
+### ➕ Add Product
 
-POST /products
+ ** POST /products
+```bash
+
 Headers: Authorization: Bearer <token>
 {
   "name": "string",
@@ -99,22 +103,27 @@ Headers: Authorization: Bearer <token>
   "quantity": number,
   "price": number
 }
+```
 
-🔄 Update Quantity
+### 🔄 Update Quantity
 
-PUT /products/:id/quantity
+** PUT /products/:id/quantity
 
+```bash
 Headers: Authorization: Bearer <token>
 {
   "quantity": number
 }
+```
 
-📦 Get Products
-pgsql
+ ### 📦 Get Products
+ 
+```bash
 
 GET /products?page=1&limit=10
 
 Headers: Authorization: Bearer <token>
+```
 
 API Documentation (Swagger UI)
 
