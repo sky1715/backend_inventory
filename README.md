@@ -50,25 +50,31 @@ git clone https://github.com/sky1715/backend_inventory.git
 cd inventory-management-backend
 ```
 
-2. Install dependencies
+### 2. **Install dependencies
 
+```bash
 npm install
+```
 
-3. Configure environment variables
+### 3. **Configure environment variables
    
 Create a .env file in the root directory and add:
 
 env
 
+```bash
 PORT=5000
 
 MONGODB_URI=mongodb://localhost:27017/inventorydb
 
 JWT_SECRET=your_jwt_secret_key
+```
 
-4. Start the server
+### 4. **Start the server
 
+```bash
 npm start
+```
 
 Sample API Endpoints
 🔐 Login
