@@ -1,38 +1,54 @@
 
-# backend_inventory# backend_inventory_management
-This is a backend REST API for a simple Inventory Management Tool, built using Node.js, Express, and MongoDB. It supports user authentication, product management, and inventory tracking.
+# 📦 **Inventory Management Backend API**
 
-🚀 Features
-🔐 User Authentication (Login with JWT)
+This is a backend REST API for a simple **Inventory Management Tool**, built using **Node.js**, **Express**, and **MongoDB**. It supports user authentication, product management, and inventory tracking.
 
-➕ Add Products to inventory
+---
 
-🔄 Update Product Quantity
+## 🚀 **Features**
 
-📦 Get Product List with pagination support
+- 🔐 **User Authentication** (Login with **JWT**)
+- ➕ **Add Products** to Inventory
+- 🔄 **Update Product Quantity**
+- 📦 **Get Product List** with Pagination Support
+- 📄 **Swagger/OpenAPI Documentation**
+- 🧪 **API Test Script** (Python included)
+- ✅ **Secured using Best Practices**
 
-📄 Swagger/OpenAPI Documentation
+---
 
-🧪 Includes API Test Script (Python)
+## 📚 **Tech Stack**
 
-✅ Secured using best practices
+- **Node.js**
+- **Express.js**
+- **MongoDB** with **Mongoose**
+- **JWT** for Authentication
+- **Swagger** for API Documentation
+- **dotenv** for Environment Variables
 
-🛠️ Tech Stack
-Node.js with Express.js
+---
 
-MongoDB using Mongoose
+## 📂 **Folder Structure**
 
-JWT for secure authentication
 
-Swagger for API documentation
 
-Setup Instructions
+## 🛠️ **Tech Stack**
 
-1. Clone the repository
+- **Node.js** with **Express.js**
+- **MongoDB** using **Mongoose**
+- **JWT** for Secure Authentication
+- **Swagger** for API Documentation
 
-git clone [ https://github.com/sky1715/backend_inventory.git ]
+---
 
+## ⚙️ **Setup Instructions**
+
+### 1. **Clone the Repository**
+
+```bash
+git clone https://github.com/sky1715/backend_inventory.git
 cd inventory-management-backend
+```
 
 2. Install dependencies
 
