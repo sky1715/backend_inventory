@@ -27,10 +27,11 @@ JWT for secure authentication
 Swagger for API documentation
 
 Setup Instructions
-1. Clone the repository
-bash
 
-git clone https://github.com/your-username/inventory-management-backend.git
+1. Clone the repository
+
+git clone [ https://github.com/sky1715/backend_inventory.git ]
+
 cd inventory-management-backend
 
 2. Install dependencies
@@ -38,9 +39,11 @@ cd inventory-management-backend
 npm install
 
 3. Configure environment variables
+   
 Create a .env file in the root directory and add:
 
 env
+
 PORT=5000
 
 MONGODB_URI=mongodb://localhost:27017/inventorydb
