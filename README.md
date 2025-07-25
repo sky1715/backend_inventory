@@ -1,3 +1,4 @@
+<img width="1345" height="884" alt="Screenshot 2025-07-25 210325" src="https://github.com/user-attachments/assets/1f682e06-747a-4a3f-86f4-7141fc8f9ecd" />
 # backend_inventory# backend_inventory_management
 This is a backend REST API for a simple Inventory Management Tool, built using Node.js, Express, and MongoDB. It supports user authentication, product management, and inventory tracking.
 
@@ -86,17 +87,20 @@ Headers: Authorization: Bearer <token>
 }
 📦 Get Products
 pgsql
-Copy
-Edit
+
 GET /products?page=1&limit=10
+
 Headers: Authorization: Bearer <token>
 
 API Documentation (Swagger UI)
+
 This project includes interactive API documentation via Swagger UI.
 
 🔗 Access it at:
 
 http://localhost:5000/api-docs
+
+
 Once your server is running, visit the link to:
 
 See all available endpoints
@@ -160,6 +164,9 @@ Headers:
 Authorization: Bearer <access_token>
 Content-Type: application/json
 <img width="1349" height="870" alt="Screenshot 2025-07-25 205700" src="https://github.com/user-attachments/assets/2f13be18-1749-434c-af74-99b661199bc7" />
+
+<img width="1345" height="884" alt="Screenshot 2025-07-25 210325" src="https://github.com/user-attachments/assets/d72940b4-fdad-44b1-a276-fd8ebf48d8b6" />
+
 
 
 
