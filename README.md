@@ -57,17 +57,15 @@ npm start
 Sample API Endpoints
 🔐 Login
 bash
-Copy
-Edit
+
 POST /login
 {
   "username": "string",
   "password": "string"
 }
+
 ➕ Add Product
-typescript
-Copy
-Edit
+
 POST /products
 Headers: Authorization: Bearer <token>
 {
@@ -79,15 +77,16 @@ Headers: Authorization: Bearer <token>
   "quantity": number,
   "price": number
 }
+
 🔄 Update Quantity
-bash
-Copy
-Edit
+
 PUT /products/:id/quantity
+
 Headers: Authorization: Bearer <token>
 {
   "quantity": number
 }
+
 📦 Get Products
 pgsql
 
