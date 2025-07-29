@@ -1,8 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const authRoutes = require('./routes/authRoutes');
-const productRoutes = require('./routes/productRoutes');
+const authRoutes = require('./routes/authroutes');
+const productRoutes = require('./routes/productroutes');
 const connectDB = require('./config/db');
 const cors = require('cors');
 
@@ -25,7 +25,21 @@ const swaggerOptions = {
       title: 'Express API',
       version: '1.0.0',
       description: 'API documentation with Swagger'
-    }
+    },
+    components: {
+      securitySchemes: {
+        bearerAuth: {
+          type: 'http',
+          scheme: 'bearer',
+          bearerFormat: 'JWT'
+        }
+      }
+    },
+    security: [
+      {
+        bearerAuth: []
+      }
+    ]
   },
   apis: ['./routes/*.js'], // Path to your route files for annotation
 };
